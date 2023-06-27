@@ -89,6 +89,18 @@ body {
   text-transform: uppercase;
   color: var(--primary-brand-color);
   margin-right: 76px;
+  position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.weblogo::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px; 
+
 }
 
 .contact-data {
@@ -103,6 +115,7 @@ body {
   color: var(--body-text-color);
   display: flex;
   gap: 40px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -139,6 +152,11 @@ body {
 .section-hero {
   background: var(--dark-color);
   padding: 188px 0;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/page1/people-office.jpg);
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .btn-hero {
@@ -154,6 +172,7 @@ body {
   border: none;
   background-color: var(--blue-button); 
   border-radius: 4px;
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .btn-hero:hover {
@@ -162,6 +181,16 @@ body {
 
 .btn-hero:focus {
   background-color: var(--pressed-state-color);
+}
+
+.advanse-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 .hero-text {
@@ -375,7 +404,9 @@ body {
 }
 
 .heder-studio {
-  border-bottom: 1px solid #e7e9fc
+  border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
+  
 }
 
 .heder-past {
