@@ -45,6 +45,7 @@ img {
   --pressed-state-color: #404BBF;
   --blue-button: #4d5ae5;
   --title-light: #e7e9fc;
+  --dark-silver: #8E8F99;
 }
 
 body {
@@ -480,4 +481,34 @@ body {
 .hero-menu-studio {
   padding-top: 24px;
   padding-bottom: 24px;
+}
+
+/**
+  |============================
+  | CLIENTS
+  |============================
+*/
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.clients-item {
+
+}
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 88px;
+  border: 1px solid var(--dark-silver);
+  border-radius: 4px;
+}
+.clients-link:hover {
+  border-color: #ffd000;
+}
+.clients-link:hover .clients-icon {
+  fill: #ffd000;
 }
