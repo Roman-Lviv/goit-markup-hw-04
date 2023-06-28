@@ -609,8 +609,11 @@ body {
 }
 
 .modal {
-  transform: -50%, -50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
   position: absolute;
+  min-height: 584px;
   width: 408px;
   height: 584px;
   left: 516px;
