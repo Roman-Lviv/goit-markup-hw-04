@@ -346,6 +346,20 @@ body {
 .footer-bag {
   background-color: var(--dark-color);
   padding: 100px 0;
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
+
+}
+
+.footer-social-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white-background-color);
+  margin-bottom: 16px; 
 }
 
 .catalog-portfolio {
@@ -567,5 +581,4 @@ body {
   line-height: 1.11;
   color: var(--customers-color);
   margin-bottom: 72px;
-
 }
