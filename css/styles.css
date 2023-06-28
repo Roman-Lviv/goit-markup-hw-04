@@ -591,9 +591,16 @@ transform: translateY(100%);
   justify-content: center; 
   border-radius: 50%;
   background-color: var(--blue-button);
-  width: 40px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+}
+
+.footer-media-wraper {
+  width: 40px; 
   height: 40px;
 }
+
 
 .footer-social:hover {
   background-color: #31d0aa;
