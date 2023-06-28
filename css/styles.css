@@ -756,6 +756,13 @@ fill: currentColor;
 }
 
 .modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--pressed-state-color); 
+  border: none;
+  fill: #ffffff;
+}
+
+.modal-btn:hover,
 .modal-btn:focus .icon-modal {
   background-color: var(--pressed-state-color); 
   border: none;
