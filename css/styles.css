@@ -367,9 +367,7 @@ body {
 }
 
 .footer-portfolio {
-  margin-right: 120px;
-  margin-bottom: 16px;
-  
+  margin-right: 120px;  
 }
 
 .footer-social-title {
@@ -591,6 +589,10 @@ transform: translateY(100%);
 .footer-social {
   align-items: center;
   justify-content: center; 
+  border-radius: 50%;
+  background-color: var(--blue-button);
+  width: 40px;
+  height: 40px;
 }
 
 .footer-social:hover {
@@ -674,6 +676,7 @@ fill: currentColor;
   align-items: center; 
   justify-content: center;
   border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-icons:hover {
   background-color: var(--pressed-state-color);
