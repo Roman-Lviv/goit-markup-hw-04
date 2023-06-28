@@ -756,7 +756,7 @@ fill: currentColor;
 }
 
 .modal-btn:hover,
-.modal-btn:focus {
+.modal-btn:focus .icon-modal {
   background-color: var(--pressed-state-color); 
   border: none;
   fill: #ffffff;
