@@ -114,6 +114,10 @@ body {
   margin-left: auto;
 }
 
+.meil-tel {
+  color: var(--body-text-color);
+}
+
 .adres-menu {
   color: var(--body-text-color);
   display: flex;
