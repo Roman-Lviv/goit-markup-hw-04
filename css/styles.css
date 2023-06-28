@@ -662,34 +662,33 @@ fill: currentColor;
   color: var(--customers-color);
   margin-bottom: 72px;
   text-align: center;
-  margin-bottom: auto;
+  margin-bottom: 72px;
 }
 
 .team-icons {
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-brand-color);
   display: flex;
   align-items: center; 
   justify-content: center;
-  border-radius: 50%;
-  position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-  width: 100%;
-  height: 100%;
-  /* background-color: var(--primary-brand-color); */
+
 }
 .team-icons:hover {
-  /* background-color: var(--pressed-state-color); */
+  background-color: var(--pressed-state-color);
 }
 .team-icons:focus {
-  /* background-color: var(--pressed-state-color); */
+  background-color: var(--pressed-state-color);
 }
 /**
   |============================
   | Modal-Window
   |============================
 */
+
+.team-icons-title {
+  fill: var(--light-mode-color);
+}
 
 .backdrop {
   position: fixed;
