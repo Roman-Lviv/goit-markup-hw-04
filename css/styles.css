@@ -500,6 +500,7 @@ body {
 .page-catalog {
   display: flex;
   gap: 24px; 
+  justify-content: center; 
 }
 
 .name-person {
@@ -508,12 +509,12 @@ body {
 }
 
 .title-text-on {
-
+  text-align: center;
   margin-bottom: 8px;
 }
 
 .title-text {
-
+  text-align: center;
 }
 
 .team-spase {
