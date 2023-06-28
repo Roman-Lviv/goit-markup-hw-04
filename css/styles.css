@@ -92,10 +92,14 @@ body {
   text-transform: uppercase;
   color: var(--primary-brand-color);
   margin-right: 76px;
-  position: relative;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
-.weblogo::after {
+
+.activ {
+  position: relative;
+  color: var(--customers-color);
+}
+.activ::after {
   content: '';
   position: absolute;
   left: 0;
@@ -103,7 +107,6 @@ body {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px; 
-
 }
 
 .contact-data {
@@ -179,7 +182,9 @@ body {
   border: none;
   background-color: var(--blue-button); 
   border-radius: 4px;
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn-hero:hover {
@@ -209,6 +214,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--white-background-color);
   max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-menu {
@@ -469,7 +476,7 @@ body {
 }
 
 .list-content {
-  padding: 120px 0;
+
 }
 
 .list-back {
@@ -492,12 +499,12 @@ body {
 }
 
 .title-text-on {
-  text-align: center; 
+
   margin-bottom: 8px;
 }
 
 .title-text {
-  text-align: center;
+
 }
 
 .section-portfolio {
@@ -527,6 +534,18 @@ body {
   width: calc((100% - 48px) / 3);
 }
 
+.portfolio-card {
+  position: relative;
+}
+
+.title-card {
+position: absolute;
+transform: translateY(100%);
+}
+.title-card:hover, .title-card:focus {
+  transform: translateY(0);
+}
+
 .content-title {
   padding: 32px 16px;
   border: 1px solid #e7e9fc; 
@@ -535,6 +554,10 @@ body {
 .hero-menu-studio {
   padding-top: 24px;
   padding-bottom: 24px;
+}
+.footer-media {
+  display: flex;
+  gap: 16px;
 }
 
 /**
@@ -561,6 +584,7 @@ body {
   border: 1px solid var(--dark-silver);
   color: var(--dark-silver);
   border-radius: 4px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .clients-link:hover {
   color: var(--pressed-state-color);
@@ -571,6 +595,10 @@ body {
   color: var(--pressed-state-color);
   border-color: #404bbf;
 }
+
+.clients-icon {
+fill: currentColor;
+} 
 
 .clients-link:hover .clients-icon {
   color: var(--pressed-state-color);
@@ -588,13 +616,22 @@ body {
   margin-bottom: 72px;
 }
 
+.team-icons {
+  border-radius: 50px;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+
 /**
   |============================
   | Modal-Window
   |============================
 */
 
-.modal-window {
+.backdrop {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -602,7 +639,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
