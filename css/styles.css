@@ -672,7 +672,7 @@ fill: currentColor;
   display: flex;
   align-items: center; 
   justify-content: center;
-
+  border-radius: 50%;
 }
 .team-icons:hover {
   background-color: var(--pressed-state-color);
