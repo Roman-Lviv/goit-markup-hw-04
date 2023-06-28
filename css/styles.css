@@ -576,7 +576,18 @@ transform: translateY(100%);
 .footer-social {
   width: 40px;
   height: 40px;
-  
+  background-color: var(--blue-button);
+  border-radius: зі значенням 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.footer-social:hover {
+  background-color: #31d0aa;
+}
+.footer-social:focus {
+  background-color: #31d0aa;
 }
 /**
   |============================
