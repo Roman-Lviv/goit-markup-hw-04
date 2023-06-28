@@ -28,6 +28,7 @@ button {
 img {
   display: block;
 }
+
 /*________________________________________________________*/
 .container {
   width: 1158px;
@@ -46,6 +47,7 @@ img {
   --blue-button: #4d5ae5;
   --title-light: #e7e9fc;
   --dark-silver: #8E8F99;
+  --customers-color: #2e2f42;
 }
 
 body {
@@ -233,7 +235,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5; 
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--body-text-color);
 }
@@ -528,20 +530,42 @@ body {
   gap: 24px;
 }
 .clients-item {
-
+  width: calc((100% - 120px) / 6);
+  height: 88px;
 }
 .clients-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 168px;
-  height: 88px;
+  width: 100%;
+  height: 100%;
   border: 1px solid var(--dark-silver);
+  color: var(--dark-silver);
   border-radius: 4px;
 }
 .clients-link:hover {
-  border-color: #ffd000;
+  color: var(--pressed-state-color);
+  border-color: #404bbf;
 }
+
+.clients-link:focus {
+  color: var(--pressed-state-color);
+  border-color: #404bbf;
+}
+
 .clients-link:hover .clients-icon {
-  fill: #ffd000;
+  color: var(--pressed-state-color);
+}
+
+.section-clients {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.customers {
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--customers-color);
+  margin-bottom: 72px;
+
 }
