@@ -610,13 +610,13 @@ margin-right: auto; */
 .title-card {
   position: absolute;
   transform: translateY(100%);
-  background: var(--iris, #4D5AE5);
+  background: var(--primary-brand-color);
   display: flex;
   align-items: center;
   width: 100%;
   height: 100%;
   transition: opacity 300ms ease-out 250ms, transform 300ms ease-out 250ms;
-  color: var(--cloud, #F4F4FD);
+  color: var(--light-mode-color);
   font-size: 16px;
   font-family: Roboto;
   line-height: 24px;
