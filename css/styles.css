@@ -164,20 +164,16 @@ body {
 .section-hero {
   background: var(--dark-color);
   padding: 188px 0;
+  margin-left: auto;
+  margin-right: auto;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/page1/people-office.jpg);
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin-left: auto;
-  margin-right: auto;
+
 }
-/* background-color: var(--dark-color);
-padding: 100px 0;
-display: flex;
-align-items: baseline;
-margin-left: auto;
-margin-right: auto; */
+
 
 .btn-hero {
   font-family: "Roboto", sans-serif;
