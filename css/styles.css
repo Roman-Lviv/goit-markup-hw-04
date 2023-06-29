@@ -274,7 +274,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-color);
-  margin-bottom: 8px 
+  margin-bottom: 8px;
+ 
 }
 
 .title-text {
@@ -284,7 +285,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--body-text-color);
-  
 }
 
 .title-text-portfolio {
@@ -508,7 +508,7 @@ body {
 }
 
 .title-text-on {
-  text-align: center;
+ 
   margin-bottom: 8px;
 }
 
