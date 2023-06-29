@@ -591,6 +591,7 @@ body {
 
 .portfolio-card {
   position: relative;
+  overflow: hidden;
 }
 
 .title-card {
