@@ -297,6 +297,15 @@ body {
   text-align: center;
 }
 
+.team-text {
+  color: var(--body-text-color);
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  text-align: center;
+}
+
 .title-text {
   font-style: normal;
   font-weight: 400;
@@ -450,7 +459,7 @@ body {
   padding: 12px 24px;
   border: 1px solid var(--title-light);
   border-radius: 4px;
-
+  
 }
 
 .btn-portfolio:hover,
@@ -579,7 +588,6 @@ body {
 }
 .portfolio-content-spase {
   width: calc((100% - 48px) / 3);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .portfolio-card {
   position: relative;
